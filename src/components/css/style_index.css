@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #09709c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  header input[type="button"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  nav.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav.sidebar a:hover {
+    background-color: #ddd;
+  }
+
+  nav.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #09709c;
+    padding-top: 20px;
+}
+
+nav.sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+nav.sidebar a:hover {
+    background-color: #272525;
+}
+
+.custom_link {
+    color: #ffffff; /* Define a cor do texto */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    padding: 10px; /* Adiciona um preenchimento ao redor do texto */
+    border: 1px solid #ffffff; /* Adiciona uma borda ao redor do link */
+    border-radius: 5px; /* Arredonda as bordas */
+    display: inline-block; /* Faz com que o link se comporte como um bloco */
+}
+
+.custom_link:hover {
+    background-color: #031bf0; /* Altera a cor de fundo quando o mouse está sobre o link */
+    color: #fff; /* Altera a cor do texto quando o mouse está sobre o link */
+}

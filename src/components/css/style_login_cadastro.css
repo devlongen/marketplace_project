@@ -1,0 +1,59 @@
+/* Estilo para o container do formulário */
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para o título do formulário */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para cada campo do formulário */
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Estilo para o texto descritivo de cada campo */
+label p {
+    margin-bottom: 5px;
+}
+
+/* Estilo para os inputs de texto, email, senha, data e número */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para os inputs de rádio e checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estilo para o botão de submit */
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilo para o botão de submit quando hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
