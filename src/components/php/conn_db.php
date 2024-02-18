@@ -2,7 +2,7 @@
 // Configurações do banco de dados
 $host = 'localhost'; // Endereço do banco de dados
 $usuario = 'root'; // Nome de usuário do banco de dados
-$senha = '@'; // Senha do banco de dados
+$senha = ''; // Senha do banco de dados
 $banco_de_dados = 'marketplace'; // Nome do banco de dados
 
 // Conexão com o banco de dados
