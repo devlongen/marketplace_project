@@ -25,4 +25,5 @@ if ($escolha_user == "A") {
         echo "Ocorreu alguma coisa no caminho!";
       }
 }
+$conn->close();
 ?>
