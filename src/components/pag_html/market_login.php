@@ -33,8 +33,8 @@
                 <input type="radio" name="escolha_user" id="cliente" value="C">Cliente
             </label>
             <label for="php_db">
-            <p></p>
-            <input type="submit" value="login">
+                <p></p>
+                <input type="submit" value="login">
             </label>
         </div>
     </form>
